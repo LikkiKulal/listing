@@ -1,0 +1,28 @@
+.status {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.statepurpule {
+  border-radius: 4px;
+  background-color: #4b2e85;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 10px;
+  color: #fff;
+  font-family: Inter;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .statepurpule {
+    font-size: 8px;
+    padding: 2px 4px;
+  }
+}

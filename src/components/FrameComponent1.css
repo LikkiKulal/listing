@@ -1,0 +1,21 @@
+.ttc {
+  position: relative;
+  line-height: 18px;
+}
+.frame-parent5,
+.inputcheckbox-parent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.frame-parent5 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  font-size: 14px;
+  color: #595959;
+  font-family: Inter;
+}

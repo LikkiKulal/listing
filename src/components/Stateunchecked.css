@@ -1,0 +1,35 @@
+.subtract-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.inputcheckboxon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  box-sizing: border-box;
+}
+.inputcheckboxon,
+.stateunchecked {
+  width: 24px;
+  height: 24px;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .subtract-icon {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .inputcheckboxon,
+  .stateunchecked {
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,56 @@
+.iconadd {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.cta-text {
+  position: relative;
+  line-height: 14px;
+  font-weight: 600;
+}
+.iconadd-parent,
+.typeprimary-stateactive-si {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.iconadd-parent {
+  gap: 8px;
+}
+.typeprimary-stateactive-si {
+  width: 328px;
+  border-radius: 16px;
+  background-color: #1c3879;
+  height: 56px;
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: Inter;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .iconadd {
+    width: 20px;
+    height: 20px;
+  }
+
+  .cta-text {
+    line-height: 12px;
+  }
+
+  .iconadd-parent {
+    gap: 4px;
+  }
+
+  .typeprimary-stateactive-si {
+    width: 100%;
+    border-radius: 8px;
+    height: 48px;
+    padding: 12px;
+    font-size: 12px;
+  }
+}

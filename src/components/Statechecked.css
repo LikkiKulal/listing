@@ -1,0 +1,53 @@
+.icontick-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border: 2px solid #ffe9f9;
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.icontick-item {
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  width: 10px;
+  height: 6px;
+}
+.icontick {
+  width: 16px;
+  position: relative;
+  border-radius: 4px;
+  background-color: #1c3879;
+  height: 16px;
+}
+.statechecked {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .icontick-child {
+    width: 16px;
+    height: 16px;
+  }
+  .icontick-item {
+    top: 3px;
+    left: 2px;
+    width: 8px;
+    height: 4px;
+  }
+  .icontick {
+    width: 12px;
+    height: 12px;
+  }
+  .statechecked {
+    padding: 2px;
+  }
+}
